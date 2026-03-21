@@ -1,0 +1,29 @@
+Java OOP (Object Oriented Programming)
+
+OOP is a progarmming paradigm based on the concepts of objects that contains data and behavior. It focuses on designing software that closely represents real-world entities.
+It is used to:-
+Improves code reusability 
+Enhances maintainbility and scalability
+Makes programs easier to understand and manage
+Closely models real-world entities
+
+Characteristics of an OOP
+1)Class:
+A class is a user defined blueprint or prototype from which objects are created. It represents the set of properties or methods that are common to all objets of on type.
+Using classes you can create multiple objects with the same behaviour instead of writing theiit code multiple times.
+for eg:
+
+                                         CAR                       is a class
+                        BMW            MERCEDES            AUDI   are objects
+2)Objects 
+An Object is a basic unit of object-oriented programming that represents real life entities. A typical Java program created many objects, whcih as you know interact by invoking methods.The objects are what perform your code,they are the part of your code visible to the viewer/user.
+
+3)Abstraction
+Abstraction in java is the process of hiding implementation details and showing only the essential features of an objects.It helps userd focus on what an object does rather how it does it
+Hides complexity
+Improves maintainabilty
+Enhances flexibility
+eg:
+We dont know the internal working of ATM machine 
+
+4)Encapsulation
