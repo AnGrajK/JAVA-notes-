@@ -31,3 +31,23 @@ It is a process of wraping data and methods into a single unit, usually a class 
 
 5)Inheritance
 Inheritance is a core OOP concept in java that allow one class to acquire the field and mthods of another class using the extends keyword.
+
+6)Polymorphism
+It menas having many forms , this means one entity can take many forms.
+
+Advantage of OOP over Procedure-Oriented Programming Language
+Object-oriented programming (OOP) offers several key advantages over procedural programming:
+
+Code reusability: Classes and objects allow reuse of existing code, reducing duplication and improving efficiency.
+Better structure and maintainability: Programs are organized into logical units, making code easier to understand, debug, and maintain.
+Supports DRY principle: Common functionality is written once and reused, leading to cleaner and more maintainable code.
+Faster development: Modular and reusable components help in quicker and scalable application development.
+
+Disadvantages of OOP
+Steep learning curve: Concepts like classes, objects, inheritance, and polymorphism can be difficult for beginners.
+Overhead for small programs: OOP may require more code and structure than necessary for simple applications.
+Debugging complexity: Code spread across multiple classes and layers can make debugging more time-consuming.
+Higher memory usage: Creating many objects can consume more memory compared to procedural programs.
+
+
+
