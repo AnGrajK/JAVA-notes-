@@ -27,3 +27,7 @@ eg:
 We dont know the internal working of ATM machine 
 
 4)Encapsulation
+It is a process of wraping data and methods into a single unit, usually a class and restricting direct access to the data.It acts as a protective shield that prevents data from being accessed direclty from outside the class.
+
+5)Inheritance
+Inheritance is a core OOP concept in java that allow one class to acquire the field and mthods of another class using the extends keyword.
