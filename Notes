@@ -44,10 +44,13 @@ Supports DRY principle: Common functionality is written once and reused, leading
 Faster development: Modular and reusable components help in quicker and scalable application development.
 
 Disadvantages of OOP
-Steep learning curve: Concepts like classes, objects, inheritance, and polymorphism can be difficult for beginners.
+Steep learning curve: Concepts like classes, objects, inheritance, and polymorphism can be difficult for beginners. 
+
 Overhead for small programs: OOP may require more code and structure than necessary for simple applications.
 Debugging complexity: Code spread across multiple classes and layers can make debugging more time-consuming.
 Higher memory usage: Creating many objects can consume more memory compared to procedural programs.
 
+
+ 
 
 
