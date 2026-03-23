@@ -137,6 +137,115 @@ x && y = false
 a after += 5 : 15
 Maximum = 15
 
+Decision Making (Control Statements) in Java:
+Decision-making (or control statements) are used to execute different blocks of code based on certain conditions. They allow a Java program to choose a path of execution depending on whether a condition is true or false.
+
+Examples:
+
+if: Executes a block if a condition is true.
+if-else: Chooses between two blocks based on a condition.
+if-else if-else: Tests multiple conditions sequentially.
+switch: Selects one block from multiple options based on a variable’s value.
+
+
+CODE
+public class DecisionMakingDemo {
+    public static void main(String[] args) {
+        int number = 10;
+
+        // if statement
+        if (number > 0) {
+            System.out.println("The number is positive.");
+        }
+
+        // if-else statement
+        if (number % 2 == 0) {
+            System.out.println("The number is even.");
+        } else {
+            System.out.println("The number is odd.");
+        }
+
+        // if-else-if ladder
+        if (number < 0) {
+            System.out.println("The number is negative.");
+        } else if (number == 0) {
+            System.out.println("The number is zero.");
+        } else {
+            System.out.println("The number is positive.");
+        }
+
+        // switch statement
+        int day = 3;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            default:
+                System.out.println("Other day");
+        }
+    }
+}
+
+OUTPUT
+The number is positive.
+The number is even.
+The number is positive.
+Wednesday
+
+Loops in Java:
+Loops are control statements in Java that allow a block of code to be executed repeatedly as long as a specified condition is true. They help in reducing code repetition.
+
+There are 4 types of loops in Java.
+
+for: Used when the number of iterations is known.
+while: Used when the number of iterations is not known in advance, condition checked before each iteration.
+do-while: Similar to while loop, but condition is checked after executing the block (executes at least once).
+for-each: Used to iterate over arrays and collections.
+
+CODE
+public class LoopsDemo {
+    public static void main(String[] args) {
+
+        // 1. For loop
+        System.out.println("For Loop:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("i = " + i);
+        }
+
+        // 2. While loop
+        System.out.println("\nWhile Loop:");
+        int j = 1;
+        while (j <= 5) {
+            System.out.println("j = " + j);
+            j++;
+        }
+
+        // 3. Do-While loop
+        System.out.println("\nDo-While Loop:");
+        int k = 1;
+        do {
+            System.out.println("k = " + k);
+            k++;
+        } while (k <= 5);
+
+        // 4. Enhanced For Loop (for-each loop)
+        System.out.println("\nEnhanced For Loop:");
+        int[] numbers = {10, 20, 30, 40, 50};
+        for (int num : numbers) {
+            System.out.println("num = " + num);
+        }
+    }
+}
+
+
+
+
 
 
 
